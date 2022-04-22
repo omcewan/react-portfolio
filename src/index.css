@@ -1,5 +1,170 @@
-* {
+:root {
+  --fa-li-margin: 10px;
+  --text-color: #f4f1de;
+  --background-color-1: #3d405b;
+  --background-color-2: #e07a5f;
+}
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--background-color-1);
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: var(--background-color-2);
+  height: 100px;
+}
+
+header h1 {
+  font-size: 40px;
+  width: 720px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  padding-left: 50px;
+  color: var(--text-color);
+}
+
+nav {
+  width: 720px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 640px;
+  list-style: none;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #f4f1de;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+
+main div {
+  width: 424px;
+  background-color: var(--background-color-1);
+  margin: 20px;
+  height: 501px;
+}
+
+.about-portrait img {
+  /** background-image: url("./test/omcewan.jpg");
+       background-size: cover; **/
+  width: 425px;
+}
+
+.about-text {
+  color: #f4f1de;
+}
+
+.about-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+}
+
+.about-text p {
+  font-size: 24px;
+  padding: 0px 20px 0 20px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  padding: 0px 20px 0 20px;
+}
+
+form {
+  border: solid var(--background-color-2);
+  width: 250px;
+}
+
+.contact-me {
+  display: flex;
+  flex-flow: column;
+  height: 400px;
+}
+
+.contact-me div {
+  margin: 20px;
+  height: 0;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.contact-me h2 {
+  color: var(--text-color);
+  font-size: 36px;
+  padding-left: 18px;
+  margin: -1px;
+  background-color: var(--background-color-2);
+}
+
+.contact-me label {
+  color: var(--text-color);
+  font-size: 26px;
+}
+
+.contact-me input {
+  width: 200px;
+  height: 30px;
+}
+
+.contact-me textarea {
+  width: 200px;
+}
+
+.contact-me button {
+  height: 40px;
+  width: 80px;
+  font-size: 19px;
+  font-weight: bold;
+  color: var(--background-color-1);
+  position: relative;
+  left: 60px;
+}
+
+iframe {
+  width: 1200px;
+  height: 700px;
+}
+
+footer {
+  background-color: var(--background-color-2);
+  height: 50px;
+  position: absolute;
+  bottom: -4px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer i {
+  margin: var(--fa-li-margin);
 }
