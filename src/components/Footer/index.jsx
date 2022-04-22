@@ -3,14 +3,22 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <a href="www.github.com/omcewan" target="_blank">
-        <i class="fa-brands fa-github-square fa-2x"></i>
+      <a href="https://github.com/omcewan" target="_blank" rel="noreferrer">
+        <i className="fa-brands fa-github-square fa-3x"></i>
       </a>
-      <a href="www.linkedin.com" target="_blank">
-        <i class="fa-brands fa-linkedin fa-2x"></i>
+      <a
+        href="https://www.linkedin.com/in/orlando-mcewan-17088ba9/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-linkedin fa-3x"></i>
       </a>
-      <a href="www.stackoverflow.com" target="_blank">
-        <i class="fa-brands fa-stack-overflow fa-2x"></i>
+      <a
+        href="https://stackoverflow.com/users/17111259/omcewan"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-stack-overflow fa-3x"></i>
       </a>
     </footer>
   );

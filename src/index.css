@@ -1,5 +1,5 @@
 :root {
-  --fa-li-margin: 10px;
+  --fa-li-margin: 6px;
   --text-color: #f4f1de;
   --background-color-1: #3d405b;
   --background-color-2: #e07a5f;
@@ -63,7 +63,7 @@ main {
 
 main div {
   width: 424px;
-  background-color: var(--background-color-1);
+  background-color: var(--background-color-2);
   margin: 20px;
   height: 501px;
 }
@@ -81,12 +81,13 @@ main div {
 .about-text {
   display: flex;
   flex-flow: column wrap;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .about-text p {
-  font-size: 24px;
+  font-size: 23px;
   padding: 0px 20px 0 20px;
+  text-align: justify;
 }
 
 .about-text h2 {
@@ -151,7 +152,7 @@ iframe {
 
 footer {
   background-color: var(--background-color-2);
-  height: 50px;
+  height: 60px;
   position: absolute;
   bottom: -4px;
   width: 100%;
