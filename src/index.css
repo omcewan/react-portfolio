@@ -52,6 +52,10 @@ li a {
   color: #f4f1de;
 }
 
+.navActive {
+  color: var(--background-color-1)
+}
+
 main {
   display: flex;
   flex-flow: row wrap;

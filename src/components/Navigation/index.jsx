@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Nav() {
-  const capFirstLetter = (str) => {
+  const capitalizeFirstLetter = (str) => {
     const strArr = str.split('');
     strArr[0] = strArr[0].toUpperCase();
     return strArr.join('');
@@ -9,13 +9,21 @@ function Nav() {
 
   const navElements = ['about', 'portfolio', 'contact', 'resume'];
 
+  const [currentNavElement, setCurrentNavElement] = useState(navElements[0]);
+
   return (
     <nav>
       <ul>
         {navElements.map((element) => (
-          <li>
-            <a key={element} href={`#${element}`}>
-              {capFirstLetter(element)}
+          <li key={element}>
+            <a
+              href={`#${element}`}
+              className={element === currentNavElement ? 'navActive' : ''}
+              onClick={() => {
+                setCurrentNavElement(element);
+              }}
+            >
+              {capitalizeFirstLetter(element)}
             </a>
           </li>
         ))}
