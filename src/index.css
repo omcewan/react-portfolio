@@ -101,43 +101,43 @@ main div {
 
 form {
   border: solid var(--background-color-2);
-  width: 400px;
+  width: 424px;
+  height: 501px;
 }
 
 .contact-me {
   display: flex;
   flex-flow: column;
-  height: 400px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .contact-me div {
   margin: 20px;
   height: 0;
   width: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .contact-me h2 {
   color: var(--text-color);
-  font-size: 36px;
-  padding-left: 18px;
+  font-size: 60px;
+  padding: 0 50px 0 50px;
   margin: -1px;
   background-color: var(--background-color-2);
 }
 
 .contact-me label {
   color: var(--text-color);
-  font-size: 26px;
+  font-size: 32px;
 }
 
 .contact-me input {
-  width: 350px;
+  width: 380px;
   height: 30px;
 }
 
 .contact-me textarea {
-  width: 350px;
+  width: 380px;
   resize: none;
 }
 
@@ -148,7 +148,7 @@ form {
   font-weight: bold;
   color: var(--background-color-1);
   position: relative;
-  left: 120px;
+  left: 130px;
   margin-top: 10px;
 }
 
