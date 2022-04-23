@@ -8,7 +8,7 @@ function Contact() {
         <img src={portraitImage} alt="Orlando's Portrait"></img>
       </div>
       <form className="contact-me">
-        <h2> Contact me </h2>
+        <h2> Contact Me </h2>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" />
