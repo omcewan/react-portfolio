@@ -4,9 +4,9 @@ import portraitImage from '../../assets/images/omcewan.jpg';
 function Contact() {
   return (
     <>
-      <div className="about-portrait">
+      {/* <div className="about-portrait">
         <img src={portraitImage} alt="Orlando's Portrait"></img>
-      </div>
+      </div> */}
       <form className="contact-me">
         <h2> Contact Me </h2>
         <div>

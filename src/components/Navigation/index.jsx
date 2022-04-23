@@ -8,7 +8,7 @@ function Nav({ navElements, currentNavElement, setCurrentNavElement }) {
   };
   return (
     <nav>
-      <ul>
+      <ul className='nav-bar'>
         {navElements.map((element) => (
           <li key={element}>
             <a

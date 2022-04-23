@@ -21,12 +21,16 @@ header {
 }
 
 header h1 {
-  font-size: 40px;
+  font-size: 50px;
   width: 720px;
-  margin-top: 23px;
-  margin-bottom: 23px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-left: 50px;
   color: var(--text-color);
+}
+
+header h1:hover {
+  color: var(--background-color-1);
 }
 
 nav {
@@ -35,20 +39,20 @@ nav {
   margin-bottom: 23px;
 }
 
-ul {
+.nav-bar {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   width: 640px;
   list-style: none;
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 0px;
   padding-left: 0px;
 }
 
 li a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--text-color)
 }
 
@@ -71,7 +75,7 @@ main {
 
 main div {
   width: 424px;
-  background-color: var(--background-color-2);
+  /* background-color: var(--background-color-2); */
   margin: 20px;
   height: 501px;
 }
@@ -99,7 +103,7 @@ main div {
 }
 
 .about-text h2 {
-  font-size: 36px;
+  font-size: 40px;
   padding: 0px 20px 0 20px;
 }
 
@@ -124,7 +128,7 @@ main div {
 .project-4 {
   background-image: url('./assets/images/project-images/surf-img.jpeg');
   background-size: cover;
-  width: 501px;
+  width:501px;
   height: 501px;
 }
 .project-5 {
@@ -141,7 +145,7 @@ main div {
 }
 
 form {
-  border: solid var(--background-color-2);
+  /* border: solid var(--background-color-2); */
   width: 424px;
   height: 501px;
 }
@@ -164,21 +168,22 @@ form {
   font-size: 40px;
   padding: 0 80px 0 100px;
   margin: -1px;
-  background-color: var(--background-color-2);
+  /* background-color: var(--background-color-2); */
 }
 
 .contact-me label {
   color: var(--text-color);
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .contact-me input {
   width: 380px;
-  height: 30px;
+  height: 32px;
 }
 
 .contact-me textarea {
   width: 380px;
+  height: 120px;
   resize: none;
 }
 
@@ -193,9 +198,47 @@ form {
   margin-top: 10px;
 }
 
-iframe {
+/* iframe {
   width: 1200px;
   height: 700px;
+} */
+
+.resume {
+  width: 500px;
+  height: 650px;
+  background-color: var(--background-color-1);
+  /* border: solid var(--background-color-2) */
+}
+
+
+.resume h2 {
+  color: var(--text-color);
+  font-size: 36px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--background-color-2);
+}
+
+.resume a:hover {
+  color: var(--text-color)
+}
+
+/* .resume ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 640px;
+  list-style: none;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+} */
+
+.resume li {
+  color: var(--text-color);
+  font-size: 26px;
 }
 
 .footer {
