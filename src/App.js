@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const navElements = ['about', 'portfolio', 'contact', 'resume'];
@@ -14,7 +15,7 @@ function App() {
       case 'contact':
         return <Contact />;
       case 'resume':
-        return <></>;
+        return <Resume />;
       default:
         return <About />;
     }
