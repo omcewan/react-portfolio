@@ -97,7 +97,7 @@ main div {
 
 form {
   border: solid var(--background-color-2);
-  width: 250px;
+  width: 400px;
 }
 
 .contact-me {
@@ -127,22 +127,24 @@ form {
 }
 
 .contact-me input {
-  width: 200px;
+  width: 350px;
   height: 30px;
 }
 
 .contact-me textarea {
-  width: 200px;
+  width: 350px;
+  resize: none;
 }
 
 .contact-me button {
   height: 40px;
-  width: 80px;
+  width: 120px;
   font-size: 19px;
   font-weight: bold;
   color: var(--background-color-1);
   position: relative;
-  left: 60px;
+  left: 120px;
+  margin-top: 10px;
 }
 
 iframe {

@@ -1,21 +1,24 @@
 import React from 'react';
 
 function Nav() {
+  const capFirstLetter = (str) => {
+    const strArr = str.split('');
+    strArr[0] = strArr[0].toUpperCase();
+    return strArr.join('');
+  };
+
+  const navElements = ['about', 'portfolio', 'contact', 'resume'];
+
   return (
     <nav>
       <ul>
-        <li>
-          <a href="#about"> About </a>
-        </li>
-        <li>
-          <a href="#portfolio"> Portfolio </a>
-        </li>
-        <li>
-          <a href="#contact-me"> Contact Me </a>
-        </li>
-        <li>
-          <a href="#resume"> Resume </a>
-        </li>
+        {navElements.map((element) => (
+          <li>
+            <a key={element} href={`#${element}`}>
+              {capFirstLetter(element)}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
