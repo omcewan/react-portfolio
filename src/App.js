@@ -7,6 +7,18 @@ import Contact from './components/Contact';
 function App() {
   const navElements = ['about', 'portfolio', 'contact', 'resume'];
   const [currentNavElement, setCurrentNavElement] = useState(navElements[0]);
+  function renderComponent() {
+    switch (currentNavElement) {
+      case 'portfolio':
+        return <></>;
+      case 'contact':
+        return <Contact />;
+      case 'resume':
+        return <></>;
+      default:
+        return <About />;
+    }
+  }
   return (
     <>
       <Header
@@ -14,15 +26,7 @@ function App() {
         currentNavElement={currentNavElement}
         setCurrentNavElement={setCurrentNavElement}
       />
-      <main>
-        {currentNavElement === 'about' ? (
-          <About />
-        ) : currentNavElement === 'contact' ? (
-          <Contact />
-        ) : (
-          ''
-        )}
-      </main>
+      <main>{renderComponent()}</main>
       <Footer />
     </>
   );

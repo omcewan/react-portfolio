@@ -49,7 +49,11 @@ ul {
 li a {
   text-decoration: none;
   font-size: 30px;
-  color: #f4f1de;
+  color: var(--text-color)
+}
+
+li a:hover {
+  color:var(--background-color-1)
 }
 
 .navActive {
