@@ -23,7 +23,7 @@ function Resume() {
       {/* <iframe src={resume} frameBorder="0" title="my-resume" seamless></iframe> */}
       <div className="resume">
         <h2>
-          Download my resume!
+          Download resume!
           <a href={resume} download>
             {' '}
             <i class="fa-solid fa-download"></i>

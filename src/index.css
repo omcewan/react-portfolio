@@ -53,11 +53,11 @@ nav {
 li a {
   text-decoration: none;
   font-size: 40px;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 li a:hover {
-  color:var(--background-color-1)
+  color: var(--background-color-1);
 }
 
 .navActive {
@@ -128,7 +128,7 @@ main div {
 .project-4 {
   background-image: url('./assets/images/project-images/surf-img.jpeg');
   background-size: cover;
-  width:501px;
+  width: 501px;
   height: 501px;
 }
 .project-5 {
@@ -146,8 +146,8 @@ main div {
 
 form {
   /* border: solid var(--background-color-2); */
-  width: 424px;
-  height: 501px;
+  width: 500px;
+  height: 600px;
 }
 
 .contact-me {
@@ -165,26 +165,29 @@ form {
 
 .contact-me h2 {
   color: var(--text-color);
-  font-size: 40px;
-  padding: 0 80px 0 100px;
+  font-size: 50px;
+  text-align: center;
+  /* padding: 0 80px 0 100px; */
   margin: -1px;
   /* background-color: var(--background-color-2); */
 }
 
 .contact-me label {
   color: var(--text-color);
-  font-size: 28px;
+  font-size: 36px;
 }
 
 .contact-me input {
-  width: 380px;
-  height: 32px;
+  width: 450px;
+  height: 40px;
+  font-size: 26px;
 }
 
 .contact-me textarea {
-  width: 380px;
-  height: 120px;
+  width: 450px;
+  height: 150px;
   resize: none;
+  font-size: 20px;
 }
 
 .contact-me button {
@@ -193,9 +196,16 @@ form {
   font-size: 19px;
   font-weight: bold;
   color: var(--background-color-1);
-  position: relative;
-  left: 130px;
+  /* position: relative;
+  left: 130px; */
   margin-top: 10px;
+}
+
+.error-text {
+  color: var(--text-color);
+  font-size: 36px;
+  width: 400px;
+  text-align: center;
 }
 
 /* iframe {
@@ -210,7 +220,6 @@ form {
   /* border: solid var(--background-color-2) */
 }
 
-
 .resume h2 {
   color: var(--text-color);
   font-size: 36px;
@@ -222,7 +231,7 @@ form {
 }
 
 .resume a:hover {
-  color: var(--text-color)
+  color: var(--text-color);
 }
 
 /* .resume ul {
@@ -265,7 +274,7 @@ form {
 
 footer a {
   text-decoration: none;
-  color: var(--background-color-1)
+  color: var(--background-color-1);
 }
 
 footer a:hover {
