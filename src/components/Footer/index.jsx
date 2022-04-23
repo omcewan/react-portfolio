@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Footer() {
+function Footer({currentNavElement}) {
   return (
-    <footer>
+    <footer className={currentNavElement === 'portfolio' ? 'portfolio-footer' : 'footer'}>
       <a href="https://github.com/omcewan" target="_blank" rel="noreferrer">
         <i className="fa-brands fa-github-square fa-3x"></i>
       </a>

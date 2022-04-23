@@ -103,6 +103,43 @@ main div {
   padding: 0px 20px 0 20px;
 }
 
+.project-1 {
+  background-image: url('./assets/images/project-images/family_fit.png');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+.project-2 {
+  background-image: url('./assets/images/project-images/motar.jpg');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+.project-3 {
+  background-image: url('./assets/images/project-images/hero-bg.jpeg');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+.project-4 {
+  background-image: url('./assets/images/project-images/surf-img.jpeg');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+.project-5 {
+  background-image: url('./assets/images/project-images/calculator-img.jpeg');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+.project-6 {
+  background-image: url('./assets/images/project-images/pastel-puzzle-img.jpeg');
+  background-size: cover;
+  width: 501px;
+  height: 501px;
+}
+
 form {
   border: solid var(--background-color-2);
   width: 424px;
@@ -161,10 +198,21 @@ iframe {
   height: 700px;
 }
 
-footer {
+.footer {
   background-color: var(--background-color-2);
   height: 60px;
   position: absolute;
+  bottom: -4px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.portfolio-footer {
+  background-color: var(--background-color-2);
+  height: 60px;
+  position: relative;
   bottom: -4px;
   width: 100%;
   display: flex;

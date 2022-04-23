@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
 
 function App() {
   const navElements = ['about', 'portfolio', 'contact', 'resume'];
@@ -11,7 +12,7 @@ function App() {
   function renderComponent() {
     switch (currentNavElement) {
       case 'portfolio':
-        return <></>;
+        return <Projects />;
       case 'contact':
         return <Contact />;
       case 'resume':
@@ -28,7 +29,7 @@ function App() {
         setCurrentNavElement={setCurrentNavElement}
       />
       <main>{renderComponent()}</main>
-      <Footer />
+      <Footer currentNavElement={currentNavElement} />
     </>
   );
 }
