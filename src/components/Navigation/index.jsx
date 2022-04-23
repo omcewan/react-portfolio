@@ -1,16 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Nav() {
+function Nav({ navElements, currentNavElement, setCurrentNavElement }) {
   const capitalizeFirstLetter = (str) => {
     const strArr = str.split('');
     strArr[0] = strArr[0].toUpperCase();
     return strArr.join('');
   };
-
-  const navElements = ['about', 'portfolio', 'contact', 'resume'];
-
-  const [currentNavElement, setCurrentNavElement] = useState(navElements[0]);
-
   return (
     <nav>
       <ul>
