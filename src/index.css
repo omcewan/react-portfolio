@@ -29,10 +29,6 @@ header h1 {
   color: var(--primary-color);
 }
 
-/* header h1:hover {
-  color: var(--secondary-color);
-} */
-
 nav {
   width: 850px;
   margin-top: 23px;
@@ -81,14 +77,11 @@ main {
 
 main div {
   width: 424px;
-  /* background-color: var(--tertiary-color); */
   margin: 10px;
   height: 501px;
 }
 
 .about-portrait img {
-  /** background-image: url("./test/omcewan.jpg");
-       background-size: cover; **/
   width: 425px;
 }
 
@@ -115,7 +108,7 @@ main div {
 
 .projects {
   width: 501px;
-  height: 200px;
+  height: 217px;
   margin: 0;
   position: relative;
   top: 282px;
@@ -132,6 +125,7 @@ main div {
 
 .projects p {
   color: var(--primary-color);
+  font-size: 18px;
 }
 
 .projects i {
@@ -144,41 +138,46 @@ main div {
   margin: var(--fa-li-margin);
 }
 
+.project-head {
+  width: 501px;
+  height: 570px;
+}
+
 .project-1 {
   background-image: url('./assets/images/project-images/family_fit.png');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 .project-2 {
   background-image: url('./assets/images/project-images/motar.jpg');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 .project-3 {
-  background-image: url('./assets/images/project-images/hero-bg.jpeg');
+  background-image: url('./assets/images/project-images/social-media.jpeg');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 .project-4 {
-  background-image: url('./assets/images/project-images/surf-img.jpeg');
+  background-image: url('./assets/images/project-images/Tech_Blog.png');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 .project-5 {
-  background-image: url('./assets/images/project-images/calculator-img.jpeg');
+  background-image: url('./assets/images/project-images/employee-tracker.png');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 .project-6 {
-  background-image: url('./assets/images/project-images/pastel-puzzle-img.jpeg');
+  background-image: url('./assets/images/project-images/weatherdashboard.png');
   background-size: cover;
-  width: 501px;
-  height: 501px;
+  width: 480px;
+  height: 276px;
 }
 
 /* .modalBackdrop {
@@ -208,7 +207,6 @@ main div {
 } */
 
 form {
-  /* border: solid var(--tertiary-color); */
   width: 500px;
   height: 600px;
 }
@@ -230,9 +228,7 @@ form {
   color: var(--primary-color);
   font-size: 50px;
   text-align: center;
-  /* padding: 0 80px 0 100px; */
   margin: -1px;
-  /* background-color: var(--tertiary-color); */
 }
 
 .contact-me label {
@@ -259,8 +255,6 @@ form {
   font-size: 19px;
   font-weight: bold;
   color: var(--secondary-color);
-  /* position: relative;
-  left: 130px; */
   margin-top: 10px;
 }
 
@@ -271,16 +265,10 @@ form {
   text-align: center;
 }
 
-/* iframe {
-  width: 1200px;
-  height: 700px;
-} */
-
 .resume {
   width: 500px;
   height: 650px;
   background-color: var(--secondary-color);
-  /* border: solid var(--tertiary-color) */
 }
 
 .resume h2 {
@@ -296,17 +284,6 @@ form {
 .resume a:hover {
   color: var(--primary-color);
 }
-
-/* .resume ul {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  width: 640px;
-  list-style: none;
-  margin-top: 8px;
-  margin-bottom: 0px;
-  padding-left: 0px;
-} */
 
 .resume li {
   color: var(--primary-color);

@@ -43,9 +43,6 @@ function Contact() {
 
   return (
     <>
-      {/* <div className="about-portrait">
-        <img src={portraitImage} alt="Orlando's Portrait"></img>
-      </div> */}
       <form className="contact-me" onSubmit={handleSubmit}>
         <h2> Contact Me </h2>
         <div>
