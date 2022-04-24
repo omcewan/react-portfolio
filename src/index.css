@@ -1,5 +1,5 @@
 :root {
-  --fa-li-margin: 6px;
+  --fa-li-margin: 8px;
   --text-color: #f4f1de;
   --background-color-1: #3d405b;
   --background-color-2: #e07a5f;
@@ -22,19 +22,19 @@ header {
 
 header h1 {
   font-size: 50px;
-  width: 720px;
+  width: 400px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 50px;
   color: var(--text-color);
 }
 
-header h1:hover {
+/* header h1:hover {
   color: var(--background-color-1);
-}
+} */
 
 nav {
-  width: 720px;
+  width: 850px;
   margin-top: 23px;
   margin-bottom: 23px;
 }
@@ -43,11 +43,13 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 640px;
+  width: 800px;
+  padding-right: 50px;
   list-style: none;
   margin-top: 0;
   margin-bottom: 0px;
   padding-left: 0px;
+  height: 40px;
 }
 
 li a {
@@ -58,6 +60,10 @@ li a {
 
 li a:hover {
   color: var(--background-color-1);
+}
+
+nav i {
+  margin-left: var(--fa-li-margin);
 }
 
 .navActive {
@@ -143,6 +149,32 @@ main div {
   width: 501px;
   height: 501px;
 }
+
+/* .modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.modalContainer {
+	background: var(--darker);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+} */
 
 form {
   /* border: solid var(--background-color-2); */
@@ -252,7 +284,7 @@ form {
 
 .footer {
   background-color: var(--background-color-2);
-  height: 60px;
+  height: 65px;
   position: absolute;
   bottom: -4px;
   width: 100%;
@@ -263,7 +295,7 @@ form {
 
 .portfolio-footer {
   background-color: var(--background-color-2);
-  height: 60px;
+  height: 65px;
   position: relative;
   bottom: -4px;
   width: 100%;

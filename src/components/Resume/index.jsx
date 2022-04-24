@@ -26,7 +26,7 @@ function Resume() {
           Download resume!
           <a href={resume} download>
             {' '}
-            <i class="fa-solid fa-download"></i>
+            <i className="fa-solid fa-download"></i>
           </a>
         </h2>
         <h2>Front End Technical Skills</h2>

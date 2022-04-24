@@ -7,8 +7,15 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 
 function App() {
-  const navElements = ['about', 'portfolio', 'contact', 'resume'];
-  const [currentNavElement, setCurrentNavElement] = useState(navElements[0]);
+  const navElements = [
+    { name: 'about', icon: <i className="fa-solid fa-user-tie fa-sm"></i> },
+    { name: 'portfolio', icon: <i className="fa-solid fa-laptop-code fa-sm"></i> },
+    { name: 'contact', icon: <i className="fa-solid fa-envelope fa-sm"></i>},
+    { name: 'resume', icon: <i className="fa-solid fa-file-pdf fa-sm"></i> },
+  ];
+  const [currentNavElement, setCurrentNavElement] = useState(
+    navElements[0].name
+  );
   function renderComponent() {
     switch (currentNavElement) {
       case 'portfolio':

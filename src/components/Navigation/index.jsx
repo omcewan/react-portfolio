@@ -8,17 +8,18 @@ function Nav({ navElements, currentNavElement, setCurrentNavElement }) {
   };
   return (
     <nav>
-      <ul className='nav-bar'>
+      <ul className="nav-bar">
         {navElements.map((element) => (
-          <li key={element}>
+          <li key={element.name}>
             <a
-              href={`#${element}`}
-              className={element === currentNavElement ? 'navActive' : ''}
+              href={`#${element.name}`}
+              className={element.name === currentNavElement ? 'navActive' : ''}
               onClick={() => {
-                setCurrentNavElement(element);
+                setCurrentNavElement(element.name);
               }}
             >
-              {capitalizeFirstLetter(element)}
+              {capitalizeFirstLetter(element.name)}
+              {element.icon}
             </a>
           </li>
         ))}
