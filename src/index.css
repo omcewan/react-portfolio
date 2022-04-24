@@ -1,22 +1,22 @@
 :root {
   --fa-li-margin: 8px;
-  --text-color: #f4f1de;
-  --background-color-1: #3d405b;
-  --background-color-2: #e07a5f;
+  --primary-color: #f4f1de;
+  --secondary-color: #3d405b;
+  --tertiary-color: #e07a5f;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--background-color-1);
+  background-color: var(--secondary-color);
 }
 
 header {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  background-color: var(--background-color-2);
+  background-color: var(--tertiary-color);
   height: 100px;
 }
 
@@ -26,11 +26,11 @@ header h1 {
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 50px;
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 /* header h1:hover {
-  color: var(--background-color-1);
+  color: var(--secondary-color);
 } */
 
 nav {
@@ -55,11 +55,11 @@ nav {
 li a {
   text-decoration: none;
   font-size: 40px;
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 li a:hover {
-  color: var(--background-color-1);
+  color: var(--secondary-color);
 }
 
 nav i {
@@ -67,7 +67,7 @@ nav i {
 }
 
 .navActive {
-  color: var(--background-color-1);
+  color: var(--secondary-color);
 }
 
 main {
@@ -81,8 +81,8 @@ main {
 
 main div {
   width: 424px;
-  /* background-color: var(--background-color-2); */
-  margin: 20px;
+  /* background-color: var(--tertiary-color); */
+  margin: 10px;
   height: 501px;
 }
 
@@ -111,6 +111,37 @@ main div {
 .about-text h2 {
   font-size: 40px;
   padding: 0px 20px 0 20px;
+}
+
+.projects {
+  width: 501px;
+  height: 200px;
+  margin: 0;
+  position: relative;
+  top: 282px;
+  background-color: var(--secondary-color);
+}
+
+.projects h2 {
+  color: var(--primary-color);
+  text-align: inherit;
+  font-size: 28px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.projects p {
+  color: var(--primary-color);
+}
+
+.projects i {
+  color: var(--primary-color);
+  margin: var(--fa-li-margin);
+}
+
+.projects i:hover {
+  color: var(--tertiary-color);
+  margin: var(--fa-li-margin);
 }
 
 .project-1 {
@@ -177,7 +208,7 @@ main div {
 } */
 
 form {
-  /* border: solid var(--background-color-2); */
+  /* border: solid var(--tertiary-color); */
   width: 500px;
   height: 600px;
 }
@@ -196,16 +227,16 @@ form {
 }
 
 .contact-me h2 {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 50px;
   text-align: center;
   /* padding: 0 80px 0 100px; */
   margin: -1px;
-  /* background-color: var(--background-color-2); */
+  /* background-color: var(--tertiary-color); */
 }
 
 .contact-me label {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 36px;
 }
 
@@ -227,14 +258,14 @@ form {
   width: 120px;
   font-size: 19px;
   font-weight: bold;
-  color: var(--background-color-1);
+  color: var(--secondary-color);
   /* position: relative;
   left: 130px; */
   margin-top: 10px;
 }
 
 .error-text {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 36px;
   width: 400px;
   text-align: center;
@@ -248,22 +279,22 @@ form {
 .resume {
   width: 500px;
   height: 650px;
-  background-color: var(--background-color-1);
-  /* border: solid var(--background-color-2) */
+  background-color: var(--secondary-color);
+  /* border: solid var(--tertiary-color) */
 }
 
 .resume h2 {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 36px;
 }
 
 .resume a {
   text-decoration: none;
-  color: var(--background-color-2);
+  color: var(--tertiary-color);
 }
 
 .resume a:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 /* .resume ul {
@@ -278,12 +309,12 @@ form {
 } */
 
 .resume li {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 26px;
 }
 
 .footer {
-  background-color: var(--background-color-2);
+  background-color: var(--tertiary-color);
   height: 65px;
   position: absolute;
   bottom: -4px;
@@ -294,7 +325,7 @@ form {
 }
 
 .portfolio-footer {
-  background-color: var(--background-color-2);
+  background-color: var(--tertiary-color);
   height: 65px;
   position: relative;
   bottom: -4px;
@@ -306,11 +337,11 @@ form {
 
 footer a {
   text-decoration: none;
-  color: var(--background-color-1);
+  color: var(--secondary-color);
 }
 
 footer a:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 footer i {
