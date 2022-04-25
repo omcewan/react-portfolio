@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectModal from '../Modal';
 
 function Projects() {
   const projects = [
@@ -56,7 +55,6 @@ function Projects() {
   ];
   return (
     <>
-      {/* <div>Modal Div</div> */}
       {projects.map(({ id, name, description, repo, deployed }) => (
         <div key={id} className='project-head'>
           <div className={`project-${id}`}>

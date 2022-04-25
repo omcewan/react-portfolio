@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import portraitImage from '../../assets/images/omcewan.jpg';
 
 function Contact() {
   const [formState, setFormState] = useState({
