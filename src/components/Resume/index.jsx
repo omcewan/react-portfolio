@@ -3,20 +3,21 @@ import resume from '../../assets/Resume.pdf';
 
 function Resume() {
   const frontEndSkills = [
-    'HTML5',
+    'Ajax',
+    'BootStrap',
     'CSS3',
+    'HTML5',
     'JavaScript',
     'jQuery',
-    'BootStrap',
-    'React',
   ];
   const backEndSkills = [
-    'MySQL',
-    'MongoDB',
     'Express',
-    'Node',
     'Handlebars',
     'Insomnia',
+    'MongoDB',
+    'MySQL',
+    'Node',
+    'React',
   ];
   return (
     <>

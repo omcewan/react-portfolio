@@ -417,21 +417,27 @@ footer i {
 
 @media screen and (max-width: 768px) {
   header {
-    height: 65px;
+    height: 48px;
+    justify-content: space-evenly;
   }
 
   header h1 {
     font-size: 26px;
     padding-left: 25px;
+    width: 300px;
+    margin: 10px 0 10px 0;
   }
 
   nav {
-    width: 600px;
+    width: 510px;
+    margin: 10px 0 10px 0;
   }
 
   .nav-bar {
-    width: 450px;
+    width: 430px;
     padding-right: 25px;
+    height: 20px;
+    margin-top: 5px;
   }
 
   li a {
@@ -446,8 +452,21 @@ footer i {
     margin-left: var(--fa-li-margin);
   }
 
+  .about-text {
+    height: 280px;
+  }
+
+  .about-portrait,
+  .about-text {
+    margin-top: 10px;
+  }
+
   .about-portrait img {
     width: 300px;
+  }
+
+  .about-portrait {
+    height: 354px;
   }
 
   .about-text h2 {
@@ -455,12 +474,14 @@ footer i {
     margin-top: 0px;
   }
   .about-text p {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .project-head {
     width: 420px;
-    height: 480px;
+    height: 446px;
+    border: solid;
+    color: var(--primary-color);
   }
 
   .projects {
@@ -471,6 +492,7 @@ footer i {
 
   .projects h2 {
     font-size: 26px;
+    margin: 0;
   }
 
   .project-1,
@@ -480,19 +502,51 @@ footer i {
   .project-5,
   .project-6 {
     width: 400px;
-    height: 220px;
+    height: 170px;
   }
-  .contact-me h2,
-  .resume h2 {
+
+  .projects p {
+    margin: 5px 0 5px;
+  }
+  .contact-me h2 {
     font-size: 26px;
+  }
+
+  .resume h2 {
+    font-size: 20px;
+  }
+
+  .resume {
+    width: 260px;
+    height: 460px;
   }
 
   .contact-me label {
-    font-size: 26px;
+    font-size: 20px;
+  }
+
+  .contact-me input {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  .contact-me div {
+    margin-bottom: 50px;
   }
 
   .resume li {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  form {
+    height: 560px;
+  }
+
+  .footer,
+  .portfolio-footer {
+    font-size: 10px;
+    height: 45px;
+    bottom: -6px;
   }
 
   .error-text {
@@ -502,13 +556,18 @@ footer i {
   main div {
     width: 300px;
     margin: 10px;
-    height: 501px;
+    height: 840px;
+  }
+
+  main {
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 575px) {
   header {
-    height: 60px;
+    height: 42px;
+    justify-content: space-between;
   }
 
   main {
@@ -525,7 +584,7 @@ footer i {
 
   nav {
     width: 350px;
-    padding-top: 22px;
+    padding-top: 9px;
     margin: 0;
     height: 20px;
   }
@@ -608,7 +667,7 @@ footer i {
     width: 340px;
     height: 180px;
   }
-  
+
   div .project-1,
   div .project-2,
   div .project-3,
