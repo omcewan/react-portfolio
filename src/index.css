@@ -72,7 +72,7 @@ main {
   justify-content: center;
   margin: 0 auto;
   max-width: 90%;
-  padding: 50px 30px;
+  /* padding: 50px 30px; */
 }
 
 main div {
@@ -83,6 +83,11 @@ main div {
 
 .about-portrait img {
   width: 425px;
+}
+
+.about-portrait,
+.about-text {
+  margin-top: 150px;
 }
 
 .about-text {
@@ -98,12 +103,12 @@ main div {
 .about-text p {
   font-size: 23px;
   padding: 0px 20px 0 20px;
-  text-align: justify;
 }
 
 .about-text h2 {
   font-size: 40px;
   padding: 0px 20px 0 20px;
+  margin-bottom: 0px;
 }
 
 .projects {
@@ -126,6 +131,7 @@ main div {
 .projects p {
   color: var(--primary-color);
   font-size: 18px;
+  margin: 10px 0 10px;
 }
 
 .projects i {
@@ -263,6 +269,7 @@ form {
   font-size: 36px;
   width: 400px;
   text-align: center;
+  margin: 0;
 }
 
 .resume {
@@ -323,4 +330,325 @@ footer a:hover {
 
 footer i {
   margin: var(--fa-li-margin);
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 75px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  .nav-bar {
+    width: 550px;
+  }
+
+  li a {
+    font-size: 26px;
+  }
+
+  li a:hover {
+    color: var(--secondary-color);
+  }
+
+  nav i {
+    margin-left: var(--fa-li-margin);
+  }
+
+  .about-text h2 {
+    font-size: 36px;
+  }
+
+  .project-head {
+    width: 340px;
+    height: 470px;
+  }
+
+  .projects {
+    width: 340px;
+    height: 210px;
+    top: 110px;
+  }
+
+  .projects h2 {
+    font-size: 26px;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4,
+  .project-5,
+  .project-6 {
+    width: 320px;
+    height: 120px;
+  }
+  .contact-me h2,
+  .resume h2 {
+    font-size: 30px;
+  }
+
+  .contact-me label {
+    font-size: 26px;
+  }
+
+  .resume li {
+    font-size: 20px;
+  }
+
+  .error-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 65px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    padding-left: 25px;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+  .nav-bar {
+    width: 450px;
+    padding-right: 25px;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  li a:hover {
+    color: var(--secondary-color);
+  }
+
+  nav i {
+    margin-left: var(--fa-li-margin);
+  }
+
+  .about-portrait img {
+    width: 300px;
+  }
+
+  .about-text h2 {
+    font-size: 26px;
+  }
+  .about-text p {
+    font-size: 18px;
+  }
+
+  .project-head {
+    width: 420px;
+    height: 480px;
+  }
+
+  .projects {
+    width: 400px;
+    height: 220px;
+    top: 170px;
+  }
+
+  .projects h2 {
+    font-size: 26px;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4,
+  .project-5,
+  .project-6 {
+    width: 400px;
+    height: 220px;
+  }
+  .contact-me h2,
+  .resume h2 {
+    font-size: 26px;
+  }
+
+  .contact-me label {
+    font-size: 26px;
+  }
+
+  .resume li {
+    font-size: 20px;
+  }
+
+  .error-text {
+    font-size: 30px;
+  }
+
+  main div {
+    width: 300px;
+    margin: 10px;
+    height: 501px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  header {
+    height: 65px;
+  }
+
+  header h1 {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+
+  nav {
+    width: 300px;
+    margin: 10px 0 10px;
+  }
+
+  .nav-bar {
+    width: 160px;
+    padding-right: 25px;
+  }
+
+  li a {
+    font-size: 16px;
+  }
+
+  li a:hover {
+    color: var(--secondary-color);
+  }
+
+  nav i {
+    margin-left: var(--fa-li-margin);
+  }
+
+  div .about-text {
+    height: 182px;
+  }
+
+  .about-portrait img {
+    height: 260px;
+    width: 290px;
+  }
+
+  .about-text h2 {
+    font-size: 16px;
+  }
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .project-head {
+    width: 420px;
+    height: 400px;
+  }
+
+  .projects {
+    width: 340px;
+    height: 220px;
+    top: 170px;
+  }
+
+  .projects h2 {
+    font-size: 20px;
+  }
+
+  .projects p {
+    font-size: 14px;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4,
+  .project-5,
+  .project-6 {
+    width: 340px;
+    height: 180px;
+  }
+  .contact-me h2,
+  .resume h2 {
+    font-size: 26px;
+  }
+
+  .contact-me label {
+    font-size: 26px;
+  }
+
+  .resume li {
+    font-size: 20px;
+  }
+
+  .error-text {
+    font-size: 30px;
+  }
+
+  main div {
+    width: 300px;
+    margin: 10px;
+    height: 240px;
+  }
+
+  footer a {
+    font-size: 12px;
+  }
+
+  .footer,
+  .portfolio-footer {
+    height: 50px;
+  }
+
+  .contact-me h2,
+  .resume h2 {
+    font-size: 26px;
+  }
+
+  .contact-me label {
+    font-size: 16px;
+  }
+
+  .contact-me input {
+    width: 300px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .contact-me textarea {
+    width: 300px;
+    height: 80px;
+  }
+
+  .contact-me div {
+    margin-bottom: 36px;
+    margin-top: 24px;
+  }
+
+  form {
+    height: 480px;
+  }
+
+  .resume li {
+    font-size: 14px;
+  }
+
+  .resume {
+    height: 500px;
+  }
+
+  .error-text {
+    font-size: 20px;
+    width: 260px;
+  }
+
+  .about-portrait,
+  .about-text {
+    margin-top: 20px;
+  }
 }
