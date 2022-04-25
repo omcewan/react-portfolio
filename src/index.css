@@ -130,7 +130,7 @@ main div {
 
 .projects p {
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px 0 10px;
 }
 
@@ -344,6 +344,7 @@ footer i {
 
   nav {
     width: 600px;
+    margin-top: 24px;
   }
 
   .nav-bar {
@@ -368,13 +369,17 @@ footer i {
 
   .project-head {
     width: 340px;
-    height: 470px;
+    height: 420px;
   }
 
   .projects {
     width: 340px;
     height: 210px;
     top: 110px;
+  }
+
+  .projects p {
+    font-size: 14px;
   }
 
   .projects h2 {
@@ -445,6 +450,7 @@ footer i {
 
   .about-text h2 {
     font-size: 26px;
+    margin-top: 0px;
   }
   .about-text p {
     font-size: 18px;
@@ -514,7 +520,7 @@ footer i {
   }
 
   .nav-bar {
-    width: 160px;
+    width: 170px;
     padding-right: 25px;
   }
 
@@ -562,7 +568,7 @@ footer i {
   }
 
   .projects p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .project-1,

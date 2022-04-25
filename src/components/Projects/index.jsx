@@ -6,7 +6,7 @@ function Projects() {
       id: 1,
       name: 'Family Fit',
       description:
-        'Family Fit is an application developed to promote an active lifestyles for families. With Family Fit individuals can sign up individually and join a family and then track their workouts. When logged in you will be able to see your stats for your previous workouts and also the workout minutes for other members of the family.The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
+        'Family Fit is an application developed to promote an active lifestyles for families. With Family Fit individuals can sign up individually and join a family and then track their workouts. When logged in you will be able to see your stats for your previous workouts and also the workout minutes for other members of the family. This was a group project in which I focused mainly on backend development. I developed the API with express to connect the mySQL database to the front end of the application. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
       repo: 'https://github.com/omcewan/family-fit',
       deployed: 'https://evening-fjord-78812.herokuapp.com/',
     },
@@ -14,7 +14,7 @@ function Projects() {
       id: 2,
       name: 'MOTAR',
       description:
-        'Motar is a cryptocurrecny converter, created so that a user, who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
+        "Motar is a cryptocurrecny converter, created so that a user, who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. MOOTAR was a group project in which I focused on writing the javascript, conecting the two APIs used to the client, so that the page can function as intended. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
       repo: 'https://github.com/RickyLovesCode/MOTAR',
       deployed: 'https://rickylovescode.github.io/MOTAR/',
     },
@@ -22,7 +22,7 @@ function Projects() {
       id: 3,
       name: "Let's Connect",
       description:
-        "Let's Connect is a Social Media API where one can create users and thoughts. Users can have others users as friends to make a friends list and also thier thoughts. One is also able to add a reactions to thoughts. This app was designed to demonstrate the functionality of Mongo as a NoSQL database. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
+        "Let's Connect is a Social Media API where one can create users and thoughts. Users can have others users as friends to make a friends list and also thier thoughts. One is also able to add a reactions to thoughts. This app was designed to demonstrate the functionality of MongoDB as a NoSQL database and develop my ability to use MongoDB effective and dive deeper into its capabilities. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
       repo: 'https://github.com/omcewan/lets-connect',
       deployed:
         ' https://drive.google.com/file/d/1qULajQbOWfkir3oJNhZ2NmGTGwH-tBmD/view',
@@ -39,7 +39,7 @@ function Projects() {
       id: 5,
       name: 'Employee Tracker',
       description:
-        'This application is am employee tracker that was develop to keep a database for a company. With this tracker you can view all your employees, departments and roles. You can also add employees, departments and roles to your company. There are other options available at your disposal. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
+        'This application is am employee tracker that was develop to keep a database for a company. With this tracker you can view all your employees, departments and roles. You can also add employees, departments and roles to your company. There are other options available at your disposal. This application was developed to sharpen my technical abilities to use mySQL as a database to store and serve data. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
       repo: 'https://github.com/omcewan/mcewans-employee-tracker',
       deployed:
         'https://drive.google.com/file/d/1eG2qf7Z6ZCN_bKO-Nb5zFkzJnipO62lh/view',
@@ -48,7 +48,7 @@ function Projects() {
       id: 6,
       name: 'Weather Dashboard',
       description:
-        'Weather dashboard is a web application which allows users to look up a city in the United States and view current and future weather forcast. The deployed application can be seen viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
+        'Weather dashboard is a web application which allows users to look up a city in the United States and view current and future weather forcast. Development of this application also served the purpose of demonstrate my understanding and use of APIs to carry out different functions of a web application. The deployed application can be seen viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
       repo: 'https://github.com/omcewan/omcewan-weather-dashboard',
       deployed: 'https://omcewan.github.io/omcewan-weather-dashboard/',
     },
