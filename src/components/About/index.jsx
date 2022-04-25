@@ -10,13 +10,18 @@ function About() {
       <div className="about-text">
         <h2> Hi! Im Orlando! </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Full stack web developer with an extensive background in biological
+          sciences and business administration, who recently earned a
+          certificate from Michigan State University, with a focus on the MERN
+          (MongoDB, Express, React and Node) stack, while also developing and
+          sharpening my skills in JavaScript, CSS, HTML and other technologies
+          relevant to today's industry. Known as a passionate and
+          detail-oriented individual, I approach each programming challenge from
+          different angles, in an attempt to find the most suitable solution.
+          With each project, my aim is to develop an application that is
+          responsive and user friendly, that targets specific user needs. I am
+          excited to leverage and develop my skills as part of a quality-driven
+          team, to solve various problems, while enhancing user experience.
         </p>
       </div>
     </>

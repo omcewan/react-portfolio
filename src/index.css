@@ -506,28 +506,38 @@ footer i {
   }
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 575px) {
   header {
-    height: 65px;
+    height: 60px;
+  }
+
+  main {
+    height: 776px;
+    display: flex;
+    justify-content: center;
   }
 
   header h1 {
     font-size: 20px;
-    padding-left: 25px;
+    padding-left: 10px;
+    width: 160px;
   }
 
   nav {
-    width: 300px;
-    margin: 16px 0 10px;
+    width: 350px;
+    padding-top: 22px;
+    margin: 0;
+    height: 20px;
   }
 
   .nav-bar {
-    width: 170px;
-    padding-right: 25px;
+    width: 330px;
+    padding-right: 10px;
+    height: 20px;
   }
 
   li a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   li a:hover {
@@ -539,12 +549,21 @@ footer i {
   }
 
   div .about-text {
-    height: 182px;
+    height: 252px;
+    width: 290px;
+    position: relative;
+    bottom: 100px;
+    margin-top: 10px;
   }
 
   .about-portrait img {
     height: 260px;
     width: 290px;
+  }
+  div.about-portrait {
+    height: 260px;
+    width: 290px;
+    margin-top: 20px;
   }
 
   .about-text h2 {
@@ -552,11 +571,16 @@ footer i {
   }
   .about-text p {
     font-size: 12px;
+    padding: 0px;
   }
 
   .project-head {
-    width: 420px;
+    width: 350px;
     height: 400px;
+    margin: 10px 0 0 0;
+    border: solid;
+    color: var(--primary-color);
+    padding-left: 10px;
   }
 
   .projects {
@@ -567,10 +591,12 @@ footer i {
 
   .projects h2 {
     font-size: 20px;
+    margin: 0;
   }
 
   .projects p {
     font-size: 12px;
+    margin: 5px 0 5px;
   }
 
   .project-1,
@@ -582,6 +608,16 @@ footer i {
     width: 340px;
     height: 180px;
   }
+  
+  div .project-1,
+  div .project-2,
+  div .project-3,
+  div .project-4,
+  div .project-5,
+  div .project-6 {
+    margin: 0px;
+  }
+
   .contact-me h2,
   .resume h2 {
     font-size: 26px;
@@ -606,17 +642,21 @@ footer i {
   }
 
   footer a {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .footer,
   .portfolio-footer {
-    height: 50px;
+    height: 40px;
+    position: fixed;
   }
 
+  .contact-me {
+    margin: 8px;
+  }
   .contact-me h2,
   .resume h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .contact-me label {
@@ -641,6 +681,7 @@ footer i {
 
   form {
     height: 480px;
+    width: 340px;
   }
 
   .resume li {
@@ -649,6 +690,7 @@ footer i {
 
   .resume {
     height: 500px;
+    width: 300px;
   }
 
   .error-text {
