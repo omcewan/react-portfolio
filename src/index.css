@@ -149,6 +149,8 @@ main div {
 .project-head {
   width: 501px;
   height: 570px;
+  border: solid;
+  color: var(--primary-color);
 }
 
 .project-1 {
@@ -335,22 +337,25 @@ footer i {
   margin: var(--fa-li-margin);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
   header {
-    height: 75px;
+    height: 55px;
   }
 
   header h1 {
     font-size: 30px;
+    margin: 8px 0 8px 0;
+    padding-left: 15px;
   }
 
   nav {
     width: 600px;
-    margin-top: 24px;
+    margin: 12px 0 12px 0;
   }
 
   .nav-bar {
     width: 550px;
+    padding-right: 15px;
   }
 
   li a {
@@ -366,12 +371,35 @@ footer i {
   }
 
   .about-text h2 {
-    font-size: 36px;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .about-text {
+    margin-top: 10px;
+    height: 330px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+  }
+
+  .about-portrait {
+    width: 422px;
+    margin-top: 10px;
+    height: 400px;
+  }
+
+  .about-portrait img {
+    height: 400px;
   }
 
   .project-head {
     width: 340px;
-    height: 420px;
+    height: 450px;
   }
 
   .projects {
@@ -382,10 +410,12 @@ footer i {
 
   .projects p {
     font-size: 14px;
+    margin: 5px 0 5px 0;
   }
 
   .projects h2 {
     font-size: 26px;
+    margin: 0;
   }
 
   .project-1,
@@ -396,6 +426,7 @@ footer i {
   .project-6 {
     width: 320px;
     height: 120px;
+    margin-bottom: 0;
   }
   .contact-me h2,
   .resume h2 {
@@ -406,12 +437,23 @@ footer i {
     font-size: 26px;
   }
 
+  .resume {
+    width: 360px;
+    height: 535px;
+  }
+
   .resume li {
     font-size: 20px;
   }
 
   .error-text {
     font-size: 30px;
+  }
+
+  .footer,
+  .portfolio-footer {
+    font-size: 10px;
+    height: 48px;
   }
 }
 
@@ -466,7 +508,8 @@ footer i {
   }
 
   .about-portrait {
-    height: 354px;
+    height: 401px;
+    width: 300px;
   }
 
   .about-text h2 {
@@ -637,8 +680,8 @@ footer i {
     width: 350px;
     height: 400px;
     margin: 10px 0 0 0;
-    border: solid;
-    color: var(--primary-color);
+    /* border: solid;
+    color: var(--primary-color); */
     padding-left: 10px;
   }
 
