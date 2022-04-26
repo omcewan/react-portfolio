@@ -24,13 +24,13 @@ header a {
 }
 header h1 {
   font-size: 22px;
-  width: 220px;
+  width: auto;
   padding-left: 15px;
   color: var(--primary-color);
 }
 
 nav {
-  width: 540px;
+  width: auto;
 }
 
 .nav-bar {
@@ -348,15 +348,15 @@ footer i {
   }
 
   nav {
-    width: 600px;
     margin: 12px 0 12px 0;
   }
 
   .nav-bar {
     width: 430px;
-    /* padding-right: 15px; */
-    padding-left: 80px;
     margin: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
   }
 
   li a {
@@ -399,8 +399,8 @@ footer i {
   }
 
   .project-head {
-    width: 340px;
-    height: 450px;
+    width: auto;
+    height: 360px;
   }
 
   .projects {
@@ -410,13 +410,17 @@ footer i {
   }
 
   .projects p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px 0 5px 0;
   }
 
   .projects h2 {
-    font-size: 26px;
+    font-size: 18px;
     margin: 0;
+  }
+
+  .projects i {
+    font-size: 22px;
   }
 
   .project-1,
@@ -429,6 +433,7 @@ footer i {
     height: 120px;
     margin-bottom: 0;
   }
+
   .contact-me h2,
   .resume h2 {
     font-size: 30px;
@@ -467,28 +472,33 @@ footer i {
 @media screen and (max-width: 768px) {
   header {
     height: 48px;
-    justify-content: space-evenly;
   }
 
   header h1 {
     font-size: 26px;
     padding-left: 25px;
-    width: 300px;
+    width: max-content;
     margin: 10px 0 10px 0;
   }
 
   nav {
-    width: 510px;
-    margin: 10px 0 10px 0;
+    width: max-content;
+    margin: 20px 0 10px 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+
+  nav li a {
+    margin: 0 5px 0 5px;
+    font-size: 16px;
   }
 
   .nav-bar {
-    width: 180px;
-    /* padding-right: 25px; */
-    padding-left: 90px;
+    width: auto;
     height: 20px;
     margin-top: -4px;
-  }
+  }a
 
   li a {
     font-size: 16px;
@@ -503,7 +513,7 @@ footer i {
   }
 
   .about-text {
-    height: 280px;
+    height: auto;
   }
 
   .about-portrait,
@@ -530,20 +540,20 @@ footer i {
   }
 
   .project-head {
-    width: 420px;
-    height: 446px;
+    width: max-content;
+    height: 375px;
     border: solid;
     color: var(--primary-color);
   }
 
   .projects {
     width: 400px;
-    height: 220px;
+    height: max-content;
     top: 170px;
   }
 
   .projects h2 {
-    font-size: 26px;
+    font-size: 18px;
     margin: 0;
   }
 
@@ -559,7 +569,13 @@ footer i {
 
   .projects p {
     margin: 5px 0 5px;
+    font-size: 12px;
   }
+
+  .projects i {
+    font-size: 22px;
+  }
+
   .contact-me h2 {
     font-size: 26px;
   }
@@ -630,14 +646,14 @@ footer i {
   }
 
   header h1 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
     width: max-content;
   }
 
   nav {
     width: 350px;
-    padding-top: 16px;
+    padding-top: 13px;
     margin: 0;
     height: 20px;
     display: flex;
@@ -651,8 +667,8 @@ footer i {
     height: 20px;
   }
 
-  li a {
-    font-size: 12px;
+  nav li a {
+    font-size: 10px;
   }
 
   li a:hover {
@@ -787,13 +803,13 @@ footer i {
   }
 
   .contact-me input {
-    width: 300px;
+    width: 245px;
     height: 25px;
     font-size: 16px;
   }
 
   .contact-me textarea {
-    width: 300px;
+    width: auto;
     height: 80px;
   }
 
