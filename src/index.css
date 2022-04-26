@@ -353,13 +353,14 @@ footer i {
   }
 
   .nav-bar {
-    width: 540px;
-    padding-right: 15px;
+    width: 430px;
+    /* padding-right: 15px; */
+    padding-left: 80px;
     margin: 0;
   }
 
   li a {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   li a:hover {
@@ -450,7 +451,13 @@ footer i {
     font-size: 30px;
   }
 
-  .footer,
+  .footer {
+    font-size: 10px;
+    height: 48px;
+    position: fixed;
+    bottom: -6px;
+  }
+
   .portfolio-footer {
     font-size: 10px;
     height: 48px;
@@ -476,14 +483,15 @@ footer i {
   }
 
   .nav-bar {
-    width: 430px;
-    padding-right: 25px;
+    width: 180px;
+    /* padding-right: 25px; */
+    padding-left: 90px;
     height: 20px;
-    margin-top: 5px;
+    margin-top: -4px;
   }
 
   li a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   li a:hover {
@@ -505,15 +513,16 @@ footer i {
 
   .about-portrait img {
     width: 300px;
+    height: 360px;
   }
 
   .about-portrait {
-    height: 401px;
+    height: 370px;
     width: 300px;
   }
 
   .about-text h2 {
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 0px;
   }
   .about-text p {
@@ -633,13 +642,14 @@ footer i {
   }
 
   .nav-bar {
-    width: 295px;
-    padding-right: 10px;
+    width: 240px;
+    /* padding-right: 10px; */
+    padding-left: 90px;
     height: 20px;
   }
 
   li a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   li a:hover {
@@ -747,7 +757,11 @@ footer i {
     font-size: 8px;
   }
 
-  .footer,
+  .footer {
+    height: 40px;
+    position: fixed;
+  }
+
   .portfolio-footer {
     height: 40px;
     position: fixed;
