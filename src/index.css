@@ -86,11 +86,11 @@ main div {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  height: 486px;
+  height: auto;
 }
 
 .about-text p {
-  font-size: 20px;
+  font-size: 16px;
   padding: 0px 20px 0 20px;
   text-align: justify;
   color: var(--primary-color);
@@ -104,25 +104,25 @@ main div {
 }
 
 .projects {
-  width: 480px;
-  height: 217px;
+  width: auto;
+  height: auto;
   margin: 0;
   position: relative;
-  top: 282px;
+  top: 240px;
   background-color: var(--secondary-color);
 }
 
 .projects h2 {
   color: var(--primary-color);
   text-align: inherit;
-  font-size: 28px;
+  font-size: 22px;
   padding-top: 10px;
   margin: 0;
 }
 
 .projects p {
   color: var(--primary-color);
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 0 10px;
   text-align: justify;
 }
@@ -138,8 +138,7 @@ main div {
 }
 
 .project-head {
-  width: 501px;
-  height: 570px;
+  width: auto;
   border: solid;
   color: var(--primary-color);
 }
@@ -299,22 +298,10 @@ form {
   font-size: 26px;
 }
 
-.footer {
+.footer, .portfolio-footer{
   background-color: var(--tertiary-color);
   height: 46px;
   position: absolute;
-  bottom: -6px;
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  font-size: 10px;
-}
-
-.portfolio-footer {
-  background-color: var(--tertiary-color);
-  height: 46px;
-  position: relative;
   bottom: -6px;
   width: 100%;
   display: flex;
@@ -359,7 +346,7 @@ footer i {
     justify-content: space-between;
   }
 
-  li a {
+  nav li a {
     font-size: 20px;
   }
 
@@ -694,7 +681,7 @@ footer i {
   div.about-portrait {
     height: 260px;
     width: 290px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .about-text h2 {
@@ -706,12 +693,10 @@ footer i {
   }
 
   .project-head {
-    width: 350px;
-    height: 360px;
+    width: auto;
     margin: 10px 0 0 0;
-    /* border: solid;
-    color: var(--primary-color); */
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
+    height: 350px;
   }
 
   .projects {
