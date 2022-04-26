@@ -626,25 +626,28 @@ footer i {
     height: 776px;
     display: flex;
     justify-content: center;
+    padding: 0;
   }
 
   header h1 {
     font-size: 20px;
     padding-left: 10px;
-    width: 160px;
+    width: max-content;
   }
 
   nav {
     width: 350px;
-    padding-top: 9px;
+    padding-top: 16px;
     margin: 0;
     height: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
   }
 
   .nav-bar {
     width: 240px;
-    /* padding-right: 10px; */
-    padding-left: 90px;
+    padding: 0px 10px 0 0;
     height: 20px;
   }
 
@@ -688,7 +691,7 @@ footer i {
 
   .project-head {
     width: 350px;
-    height: 400px;
+    height: 360px;
     margin: 10px 0 0 0;
     /* border: solid;
     color: var(--primary-color); */
@@ -697,18 +700,22 @@ footer i {
 
   .projects {
     width: 340px;
-    height: 220px;
+    height: auto;
     top: 170px;
   }
 
   .projects h2 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
   }
 
   .projects p {
-    font-size: 12px;
+    font-size: 10px;
     margin: 5px 0 5px;
+  }
+
+  .projects i {
+    font-size: 22px;
   }
 
   .project-1,
