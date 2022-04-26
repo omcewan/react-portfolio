@@ -14,7 +14,7 @@ function Projects() {
       id: 2,
       name: 'MOTAR',
       description:
-        "Motar is a cryptocurrecny converter, created so that a user, who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. MOOTAR was a group project in which I focused on writing the javascript, conecting the two APIs used to the client, so that the page can function as intended. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
+        "Motar is a cryptocurrecny converter, created so that a user, who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. MOTAR was a group project in which I focused on writing the javascript, conecting the two APIs used to the client, so that the page can function as intended. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
       repo: 'https://github.com/RickyLovesCode/MOTAR',
       deployed: 'https://rickylovescode.github.io/MOTAR/',
     },
@@ -22,7 +22,7 @@ function Projects() {
       id: 3,
       name: "Let's Connect",
       description:
-        "Let's Connect is a Social Media API where one can create users and thoughts. Users can have others users as friends to make a friends list and also thier thoughts. One is also able to add a reactions to thoughts. This app was designed to demonstrate the functionality of MongoDB as a NoSQL database and develop my ability to use MongoDB effective and dive deeper into its capabilities. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
+        "Let's Connect is a Social Media API where user can create users and thoughts. Users can have others users as friends to make a friends list and also thier thoughts. A user is also able to add a reactions to thoughts. This app was designed to demonstrate the functionality of MongoDB as a NoSQL database and develop my ability to use MongoDB effective and dive deeper into its capabilities. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
       repo: 'https://github.com/omcewan/lets-connect',
       deployed:
         ' https://drive.google.com/file/d/1qULajQbOWfkir3oJNhZ2NmGTGwH-tBmD/view',
