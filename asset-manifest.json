@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bb2fa4a8.css",
-    "main.js": "/react-portfolio/static/js/main.07cb7486.js",
+    "main.css": "/react-portfolio/static/css/main.344dada4.css",
+    "main.js": "/react-portfolio/static/js/main.b08eb225.js",
     "static/js/787.18abc642.chunk.js": "/react-portfolio/static/js/787.18abc642.chunk.js",
     "static/media/family_fit.png": "/react-portfolio/static/media/family_fit.2c49c9fa8c7fbdd70e80.png",
     "static/media/omcewan.jpg": "/react-portfolio/static/media/omcewan.c06c15310392455b4136.jpg",
@@ -12,12 +12,12 @@
     "static/media/motar.jpg": "/react-portfolio/static/media/motar.00fe2e4e6f96cd0d4b54.jpg",
     "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.9c493ede26902d3165be.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.bb2fa4a8.css.map": "/react-portfolio/static/css/main.bb2fa4a8.css.map",
-    "main.07cb7486.js.map": "/react-portfolio/static/js/main.07cb7486.js.map",
+    "main.344dada4.css.map": "/react-portfolio/static/css/main.344dada4.css.map",
+    "main.b08eb225.js.map": "/react-portfolio/static/js/main.b08eb225.js.map",
     "787.18abc642.chunk.js.map": "/react-portfolio/static/js/787.18abc642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb2fa4a8.css",
-    "static/js/main.07cb7486.js"
+    "static/css/main.344dada4.css",
+    "static/js/main.b08eb225.js"
   ]
 }
