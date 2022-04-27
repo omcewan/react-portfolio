@@ -298,7 +298,8 @@ form {
   font-size: 26px;
 }
 
-.footer, .portfolio-footer{
+.footer,
+.portfolio-footer {
   background-color: var(--tertiary-color);
   height: 46px;
   position: fixed;
@@ -485,9 +486,8 @@ footer i {
     width: auto;
     height: 20px;
     margin-top: -4px;
-  }a
-
-  li a {
+  }
+  a li a {
     font-size: 16px;
   }
 
@@ -716,7 +716,9 @@ footer i {
   }
 
   .projects i {
-    font-size: 22px;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
   }
 
   .project-1,
