@@ -7,7 +7,7 @@ function Footer({currentNavElement}) {
         <i className="fa-brands fa-github-square fa-3x"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/orlando-mcewan-17088ba9/"
+        href="https://www.linkedin.com/in/omcewan"
         target="_blank"
         rel="noreferrer"
       >
