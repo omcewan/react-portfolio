@@ -13,13 +13,13 @@ function Footer({currentNavElement}) {
       >
         <i className="fa-brands fa-linkedin fa-3x"></i>
       </a>
-      <a
+      {/* <a
         href="https://stackoverflow.com/users/17111259/omcewan"
         target="_blank"
         rel="noreferrer"
       >
         <i className="fa-brands fa-stack-overflow fa-3x"></i>
-      </a>
+      </a> */}
     </footer>
   );
 }

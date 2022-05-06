@@ -165,7 +165,7 @@ main div {
   margin: 10px;
 }
 .project-4 {
-  background-image: url('./assets/images/project-images/Tech_Blog.png');
+  background-image: url('./assets/images/project-images/searchedbooks.png');
   background-size: cover;
   width: 480px;
   height: 276px;
@@ -271,6 +271,17 @@ form {
   width: 400px;
   text-align: center;
   margin: 0;
+}
+
+.email {
+  width: max-content;
+}
+
+.email a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  /* width: auto; */
+  font-size: 20px;
 }
 
 .resume {

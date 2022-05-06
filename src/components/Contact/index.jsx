@@ -78,6 +78,11 @@ function Contact() {
             </div>
           )}
           <button type="submit">Submit</button>
+          <p className="email">
+            <a href="mailto:orlandomcewan231@gmail.com">
+              Please click here to email me directly.
+            </a>
+          </p>
         </div>
       </form>
     </>
