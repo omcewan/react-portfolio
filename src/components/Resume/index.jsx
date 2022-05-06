@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/Resume.pdf';
+import resume from '../../assets/Orlando_McEwan_Resume.pdf';
 
 function Resume() {
   const frontEndSkills = [
@@ -7,11 +7,12 @@ function Resume() {
     'BootStrap',
     'CSS3',
     'HTML5',
-    'JavaScript',
-    'jQuery',
+    'Javascript',
+    'JQuery',
   ];
   const backEndSkills = [
     'Express',
+    'GraphQl',
     'Handlebars',
     'Insomnia',
     'MongoDB',

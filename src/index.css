@@ -90,7 +90,7 @@ main div {
 }
 
 .about-text p {
-  font-size: 16px;
+  font-size: 20px;
   padding: 0px 20px 0 20px;
   text-align: justify;
   color: var(--primary-color);
@@ -534,7 +534,7 @@ footer i {
     margin-top: 0px;
   }
   .about-text p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .project-head {
@@ -699,7 +699,7 @@ footer i {
     font-size: 16px;
   }
   .about-text p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px;
   }
 
