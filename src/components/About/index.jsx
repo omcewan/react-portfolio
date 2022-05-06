@@ -8,7 +8,7 @@ function About() {
         <img src={portraitImage} alt="Orlando's Portrait"></img>
       </div>
       <div className="about-text">
-        <h2> Hi! Im Orlando! </h2>
+        <h2> Hi! I'm Orlando! </h2>
         <p>
           Full Stack Web Developer with an extensive background in biological
           sciences and business administration. Earned a certificate from
