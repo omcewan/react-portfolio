@@ -14,24 +14,23 @@ function Projects() {
       id: 2,
       name: 'MOTAR',
       description:
-        "Motar is a cryptocurrecny converter created so that a user who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. MOTAR was a group project in which I focused on writing the javascript, conecting the two APIs used to the client, so that the page can function as intended. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
+        'Motar is a cryptocurrecny converter created so that a user who is interested in cryptocurrency can covert the cryptocurrency of their choice to a desired currency. MOTAR also allows a user to look up End of Day (EoD) data of a desired stock. MOTAR was made to be simple and easy to use. MOTAR was a group project in which I focused on writing the javascript, conecting the two APIs used to the client, so that the page can function as intended. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
       repo: 'https://github.com/RickyLovesCode/MOTAR',
       deployed: 'https://rickylovescode.github.io/MOTAR/',
     },
     {
       id: 3,
-      name: "Let's Connect",
+      name: 'Professional README',
       description:
-        "Let's Connect is a Social Media API where user can create sign up and create thoughts. Users can also have others users as friends. A user is also able to add reaction(s) to thoughts. This app was designed to demonstrate the functionality of MongoDB as a NoSQL database and develop my ability to use MongoDB effective and dive deeper into its capabilities. A short video description can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.",
-      repo: 'https://github.com/omcewan/lets-connect',
-      deployed:
-        ' https://drive.google.com/file/d/1qULajQbOWfkir3oJNhZ2NmGTGwH-tBmD/view',
+        'Professional README is a readme generator aimed at helping developers quickly and efficiently create a README file. This application is easy to use and users can keep a record of past README files that they have created.The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
+      repo: 'https://github.com/SabaMahd/Professional-ReadMEAPP',
+      deployed: 'https://stark-fjord-23181.herokuapp.com/',
     },
     {
       id: 4,
       name: 'Google Book Search',
       description:
-        'Google Book Search is an engine that uses the google API to search for different books that as a user might be intested in. Users can log in and then be able save books they want to read and then delete these books from their saved list whenever they need. The application is also powered by the graphql api. This application was developed to show my knowledge and understanding of graphql. I took an existing code base that used RESTful API and refactor it to use apollo/graphql.',
+        'Google Book Search is an engine that uses the google API to search for different books that as a user might be intested in. Users can log in and then be able save books they want to read and then delete these books from their saved list whenever they need. The application is also powered by the graphql api. This application was developed to show my knowledge and understanding of graphql. I took an existing code base that used RESTful API and refactor it to use apollo/graphql. The deployed application can be viewed by clicking on the display symbol, while the repository can be viewed by clicking on the github symbol.',
       repo: 'https://github.com/omcewan/mcewan-booksearch',
       deployed: 'https://thawing-ocean-78972.herokuapp.com/',
     },
@@ -56,7 +55,7 @@ function Projects() {
   return (
     <>
       {projects.map(({ id, name, description, repo, deployed }) => (
-        <div key={id} className='project-head'>
+        <div key={id} className="project-head">
           <div className={`project-${id}`}>
             <div className="projects">
               <h2>{name}</h2>
