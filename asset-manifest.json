@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.97f2590e.css",
-    "main.js": "/react-portfolio/static/js/main.f184a5db.js",
+    "main.css": "/react-portfolio/static/css/main.bf25612a.css",
+    "main.js": "/react-portfolio/static/js/main.c71ac3a9.js",
     "static/js/787.18abc642.chunk.js": "/react-portfolio/static/js/787.18abc642.chunk.js",
     "static/media/family_fit.png": "/react-portfolio/static/media/family_fit.2c49c9fa8c7fbdd70e80.png",
     "static/media/omcewan.jpg": "/react-portfolio/static/media/omcewan.c06c15310392455b4136.jpg",
-    "static/media/social-media.jpeg": "/react-portfolio/static/media/social-media.ad09721d2cc11e27015b.jpeg",
     "static/media/searchedbooks.png": "/react-portfolio/static/media/searchedbooks.54f178e56e360cf4e1bf.png",
     "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.952b7cf538af4defb52d.png",
     "static/media/weatherdashboard.png": "/react-portfolio/static/media/weatherdashboard.1cfb6cfd33a33d7b3836.png",
+    "static/media/professional-readme.png": "/react-portfolio/static/media/professional-readme.cfda94bc15db67f66f93.png",
     "static/media/Orlando_McEwan_Resume.pdf": "/react-portfolio/static/media/Orlando_McEwan_Resume.2c3bcb596f3c458b3d46.pdf",
     "static/media/motar.jpg": "/react-portfolio/static/media/motar.00fe2e4e6f96cd0d4b54.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.97f2590e.css.map": "/react-portfolio/static/css/main.97f2590e.css.map",
-    "main.f184a5db.js.map": "/react-portfolio/static/js/main.f184a5db.js.map",
+    "main.bf25612a.css.map": "/react-portfolio/static/css/main.bf25612a.css.map",
+    "main.c71ac3a9.js.map": "/react-portfolio/static/js/main.c71ac3a9.js.map",
     "787.18abc642.chunk.js.map": "/react-portfolio/static/js/787.18abc642.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f2590e.css",
-    "static/js/main.f184a5db.js"
+    "static/css/main.bf25612a.css",
+    "static/js/main.c71ac3a9.js"
   ]
 }
