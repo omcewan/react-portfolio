@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/Orlando_McEwan_Resume.pdf';
+import resume from '../../assets/Orlando McEwan - Resume.pdf';
 
 function Resume() {
   const frontEndSkills = [

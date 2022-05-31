@@ -80,7 +80,7 @@ function Contact() {
           <button type="submit">Submit</button>
           <p className="email">
             <a href="mailto:orlandomcewan231@gmail.com">
-              Please click here to email me directly.
+              Email me at: orlandomcewan231@gmail.com
             </a>
           </p>
         </div>

@@ -814,6 +814,10 @@ footer i {
   .contact-me div {
     margin-bottom: 36px;
     margin-top: 24px;
+  } 
+
+  .email a {
+    font-size: 15px;
   }
 
   form {
